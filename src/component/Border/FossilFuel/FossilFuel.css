@@ -1,0 +1,61 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.LowerDisplay {
+    background-color: aliceblue;
+    width: 208.8vh;
+    height: 3rem;
+    position: fixed;
+    bottom: 0;
+    margin-left: -0.5rem;
+    border-radius: 1rem;
+}
+
+.text-flex {
+    display: flex;
+}
+
+.text-witg {
+    background-color: rgba(120, 120, 120, 0.692);
+    border-radius: 3rem;
+    width: 15rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: 0.05s;
+}
+
+.text-witg:hover {
+    transform: scale(1.045);
+}
+.test-text{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ThoriumSafety{
+    background-color: azure;
+    border-radius: 2rem;
+    height: 100%;
+    width: 30vw;
+    border: 2px solid #000000;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.img-ThoriumSafety{
+    width: 5rem;
+    border-radius: 50%;
+
+}
+
+.img-ThoriumSafety-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
