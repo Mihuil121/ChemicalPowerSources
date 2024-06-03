@@ -1,0 +1,23 @@
+.head{
+    background-color: aliceblue;
+    width: 208.8vh;
+    height: 3rem;
+    margin: -1rem;
+    display: flex;
+    border-bottom-left-radius: 1.5rem ;
+    border-bottom-right-radius: 1.5rem ;
+}
+
+.ArrowBigLeftDash{
+   margin:1rem 2rem;
+   cursor: pointer;
+  
+}
+
+.text-LowerDisplay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+

@@ -1,0 +1,108 @@
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.colon {
+    background-color: #ffffff;
+    border-radius: 16px;
+    border: 0.2rem solid #000000;
+    width: 15rem;
+    height: 30rem;
+    margin-left: 2rem;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.text-colum {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.imgs {
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.clic {
+    margin-top: 10rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+}
+
+.clic-booton-bac {
+    background:linear-gradient(30deg,#5cbc5f, #008705 45%,#00bb06 25%,#5cbc5f ) ;
+    
+    width: 10rem;
+    border-radius: 2rem;
+}
+
+.clic-booton {
+    margin: 0.5rem 2rem;
+
+}
+
+@media(max-width:1396px) {
+    .colon {
+        background-color: #ffffff;
+        border-radius: 16px;
+        border: 0.2rem solid #000000;
+        width: 15rem;
+        height: 30rem;
+        margin-left: 2rem;
+        transition: 0.2s;
+        cursor: pointer;
+        width: 12rem;
+    }
+}
+@media(max-width:1160px) {
+    .colon {
+        background-color: #ffffff;
+        border-radius: 16px;
+        border: 0.2rem solid #000000;
+        width: 10rem; /* Keep this */
+        height: 25rem;
+        margin-left: 2rem;
+        transition: 0.2s;
+        cursor: pointer;
+        /* Remove the redundant width declaration */
+    }
+    .clic-booton-bac {
+        background: linear-gradient(30deg,#5cbc5f, #008705 45%,#00bb06 25%,#5cbc5f );
+        width: 11vw;
+        border-radius: 2rem;
+        font-size: 0.7rem;
+    }
+    .clic-booton-bac {
+        background: linear-gradient(30deg,#5cbc5f, #008705 45%,#00bb06 25%,#5cbc5f );
+        width: 11vw;
+        border-radius: 2rem;
+        font-size: 0.7rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 2.5rem;
+    }
+}
+
+@media (max-width: 998px) {
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: 100vh;
+    }
+    .text-colum {
+        text-align: center;
+        font-size: 0.8rem;
+    }
+}
