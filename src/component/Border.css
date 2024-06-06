@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container {
   overflow: hidden;
   height: 100vh;
@@ -127,3 +128,53 @@
     justify-content: center;
 }
 }
+=======
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.colon {
+    background-color: #ffffff;
+    border-radius: 16px;
+    border: 0.2rem solid #000000;
+    width: 15rem;
+    height: 30rem;
+    margin-left: 2rem;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.text-colum {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.imgs {
+    width: 6rem;
+    margin: 1rem 4.5rem;
+}
+
+.clic {
+    margin-top: 10rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+}
+
+.clic-booton-bac {
+    background:linear-gradient(30deg,#5cbc5f, #008705 45%,#00bb06 25%,#5cbc5f ) ;
+    
+    width: 10rem;
+    border-radius: 2rem;
+}
+
+.clic-booton {
+    margin: 0.5rem 2rem;
+
+}
+>>>>>>> origin/main

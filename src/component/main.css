@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background: url('../img/_256246b0-fc52-4f14-b6f5-1820467cefbd.jfif');
     background-repeat: no-repeat;
@@ -22,6 +23,14 @@ body {
 div:not([class]) {
     animation: fadeIn 2s ease-in-out;
 }
+=======
+Body {
+    background: url('../img/_256246b0-fc52-4f14-b6f5-1820467cefbd.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+>>>>>>> origin/main
 
 .free {
     margin: 0px 0px;
@@ -86,6 +95,7 @@ div:not([class]) {
     cursor: pointer;
 
 }
+<<<<<<< HEAD
 
 .alert-enter {
     opacity: 0;
@@ -140,3 +150,22 @@ div:not([class]) {
         overflow-y: hidden;
     }
 }
+=======
+.alert-enter {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  .alert-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 300ms, transform 300ms;
+  }
+  .alert-exit {
+    opacity: 1;
+  }
+  .alert-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 300ms, transform 300ms;
+  }
+>>>>>>> origin/main

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  body {
     font-family: 'Roboto', sans-serif;
     height: 100vw;
@@ -14,6 +15,20 @@
     left: 0; /* Текст прижат к левому краю */
     border-radius: 1rem;
     overflow-y: auto; /* Включение вертикальной прокрутки, если содержимое превышает высоту блока */
+=======
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.LowerDisplay {
+    background-color: aliceblue;
+    width: 208.8vh;
+    height: 3rem;
+    position: fixed;
+    bottom: 0;
+    margin-left: -0.5rem;
+    border-radius: 1rem;
+>>>>>>> origin/main
 }
 
 .text-flex {
@@ -32,15 +47,20 @@
 .text-witg:hover {
     transform: scale(1.045);
 }
+<<<<<<< HEAD
 
 
 .test-text {
+=======
+.test-text{
+>>>>>>> origin/main
     margin-top: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+<<<<<<< HEAD
 .ThoriumSafety {
     background-color: azure;
     border-radius: 2rem;
@@ -63,11 +83,33 @@
 }
 
 .img-ThoriumSafety-img {
+=======
+.ThoriumSafety{
+    background-color: azure;
+    border-radius: 2rem;
+    height: 100%;
+    width: 30vw;
+    border: 2px solid #000000;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.img-ThoriumSafety{
+    width: 5rem;
+    border-radius: 50%;
+
+}
+
+.img-ThoriumSafety-img{
+>>>>>>> origin/main
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
 }
+<<<<<<< HEAD
 
 @media (max-width: 1389px) {
     .ThoriumSafety {
@@ -114,3 +156,5 @@
     }
 }
 
+=======
+>>>>>>> origin/main
