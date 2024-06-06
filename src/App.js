@@ -1,6 +1,7 @@
 import React from 'react';
 import Main from './component/Main.jsx';
 
+
 function App() {
   return (
     <div className="App">
