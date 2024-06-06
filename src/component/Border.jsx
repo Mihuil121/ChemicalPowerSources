@@ -73,22 +73,20 @@ export default class Border extends Component {
     }
 
     return (
-      <div style={styles}>
+      <div className="container" style={styles}>
         <div className="flex">
-          <div className="">
-            <div className="colon" onClick={this.FossilFuel} onMouseOver={() => this.setState({ sty: transform })} onMouseOut={() => this.setState({ sty: null })} style={this.state.sty}>
-              <div>
-                <img src={icon} alt="" className="imgs" />
-              </div>
-              <div className="text-colum">
-                Какой тип топлива предпочтительнее?
-              </div>
-              <div className="clic" >
-                <div className="clic-booton-bac">
-                  <p className='clic-booton'>
-                    нажмите чтоб узнать
-                  </p>
-                </div>
+          <div className="colon" onClick={this.FossilFuel} onMouseOver={() => this.setState({ sty: transform })} onMouseOut={() => this.setState({ sty: null })} style={this.state.sty}>
+            <div>
+              <img src={icon} alt="" className="imgs" />
+            </div>
+            <div className="text-colum">
+              Какой тип топлива предпочтительнее?
+            </div>
+            <div className="clic">
+              <div className="clic-booton-bac">
+                <p className='clic-booton'>
+                  нажмите чтоб узнать
+                </p>
               </div>
             </div>
           </div>
@@ -131,7 +129,7 @@ export default class Border extends Component {
             </div>
             <div className="clic">
               <div className="clic-booton-bac">
-                <p className='clic-booton'>
+                <p className='clic-bootон'>
                   нажмите чтоб узнать
                 </p>
               </div>

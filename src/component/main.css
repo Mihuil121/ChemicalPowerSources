@@ -1,11 +1,27 @@
-Body {
+body {
     background: url('../img/_256246b0-fc52-4f14-b6f5-1820467cefbd.jfif');
     background-repeat: no-repeat;
+    height: 100vh;
     background-size: cover;
-    overflow-x: hidden; /* Запрещает прокрутку по горизонтали */
-    overflow-y: hidden; /* Запрещает прокрутку по вертикали */
+    overflow-x: hidden;
+    /* Запрещает прокрутку по горизонтали */
+    overflow-y: hidden;
+    /* Запрещает прокрутку по вертикали */
 }
 
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+div:not([class]) {
+    animation: fadeIn 2s ease-in-out;
+}
 
 .free {
     margin: 0px 0px;
@@ -70,20 +86,57 @@ Body {
     cursor: pointer;
 
 }
+
 .alert-enter {
     opacity: 0;
     transform: scale(0.9);
-  }
-  .alert-enter-active {
+}
+
+.alert-enter-active {
     opacity: 1;
     transform: translateX(0);
     transition: opacity 300ms, transform 300ms;
-  }
-  .alert-exit {
+}
+
+.alert-exit {
     opacity: 1;
-  }
-  .alert-exit-active {
+}
+
+.alert-exit-active {
     opacity: 0;
     transform: scale(0.9);
     transition: opacity 300ms, transform 300ms;
-  }
+}
+
+@media (max-width: 813px) {
+    body {
+        background: url('../img/_256246b0-fc52-4f14-b6f5-1820467cefbd.jfif') no-repeat center center;
+        background-size: 200% 200%; /* Увеличивает размер изображения до 150% от оригинала */
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+}
+@media (max-width: 569px) {
+    body {
+        background: url('../img/_256246b0-fc52-4f14-b6f5-1820467cefbd.jfif') no-repeat center center;
+        background-size: 250% 250%; /* Увеличивает размер изображения до 150% от оригинала */
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+}
+@media (max-width: 669px) {
+    body {
+        background: url('../img/_256246b0-fc52-4f14-b6f5-1820467cefbd.jfif') no-repeat center center;
+        background-size: 200% 1000%; /* Увеличивает размер изображения до 150% от оригинала */
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+}
+@media (max-width: 470px) {
+    body {
+        background: url('../img/_256246b0-fc52-4f14-b6f5-1820467cefbd.jfif') no-repeat center center;
+        background-size: 100% 1000%; /* Увеличивает размер изображения до 150% от оригинала */
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+}
