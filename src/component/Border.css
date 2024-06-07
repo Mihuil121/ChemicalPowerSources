@@ -125,5 +125,16 @@
     align-items: center;
     height: 3vh;
     justify-content: center;
+  }
 }
+
+@media (max-width: 600px) {
+  .flex {
+    flex-direction: column;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+  }
 }

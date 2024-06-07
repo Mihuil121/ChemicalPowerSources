@@ -143,4 +143,8 @@ div:not([class]) {
         overflow-x: hidden;
         overflow-y: hidden;
     }
+    .text-text {
+        font-size: 1.3rem;
+        width: 20rem;
+    }
 }
