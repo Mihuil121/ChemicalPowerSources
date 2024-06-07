@@ -131,6 +131,10 @@ div:not([class]) {
         overflow-x: hidden;
         overflow-y: hidden;
     }
+    .text-text {
+        width: 24rem;
+        font-size: 1.5rem;
+    }
 }
 @media (max-width: 470px) {
     body {

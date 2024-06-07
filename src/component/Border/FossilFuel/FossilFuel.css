@@ -1,18 +1,19 @@
 body {
     font-family: 'Roboto', sans-serif;
-    height: 100vw;
+    height: 100vh; /* Change 100vw to 100vh to use the full viewport height */
     overflow-x: hidden;
+    overflow-y: auto; /* Add vertical scrolling to the body */
 }
 
 .LowerDisplay {
     background-color: aliceblue;
     width: 100vw;
-    max-height: 100vh; /* Ограничение максимальной высоты до 100% высоты окна просмотра */
+    max-height: 100vh; /* Limit max height to 100% of the viewport height */
     position: fixed;
     bottom: 0;
-    left: 0; /* Текст прижат к левому краю */
+    left: 0; /* Align text to the left */
     border-radius: 1rem;
-    overflow-y: auto; /* Включение вертикальной прокрутки, если содержимое превышает высоту блока */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds block height */
 }
 
 .text-flex {
@@ -42,8 +43,8 @@ body {
 .ThoriumSafety {
     background-color: azure;
     border-radius: 2rem;
-    width: 30vw; /* Уберите явное ограничение ширины */
-    max-width: 100vw; /* Ограничьте максимальную ширину до ширины экрана */
+    width: 30vw; /* Remove explicit width limitation */
+    max-width: 100vw; /* Limit max width to the viewport width */
     border: 2px solid #000000;
     display: flex;
     justify-content: center;
@@ -78,7 +79,7 @@ body {
         border: 2px solid #000000;
         display: flex;
         justify-content: center;
-        align-items: center; /* Выравнивание по центру по вертикали */
+        align-items: center; /* Center alignment vertically */
         flex-direction: column;
     }
 }
@@ -134,4 +135,34 @@ body {
         align-items: center;
         flex-direction: column;
     }
+}
+
+@media (max-height: 770px) {
+    body {
+        overflow-y: auto; /* Add vertical scrolling to the body */
+    }
+    .LowerDisplay {
+        max-height: 100%; /* Remove the fixed positioning to allow it to scroll */
+        
+    }
+    .ThoriumSafety {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        background-color: azure;
+        border-radius: 2rem;
+        height: 100%;
+        width: 80vw;
+        border: 2px solid #000000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20rem;
+    }
+}
+
+
+@media (max-height: 770px) {
+
+
 }
